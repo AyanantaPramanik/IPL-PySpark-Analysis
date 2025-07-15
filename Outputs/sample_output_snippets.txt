@@ -1,0 +1,221 @@
+
+📊 1a. Matches Played Per Season
++-------+--------------+
+| season|matches_played|
++-------+--------------+
+|2007/08|            58|
+|   2009|            57|
+|2009/10|            60|
+|   2011|            73|
+|   2012|            74|
+|   2013|            76|
+|   2014|            60|
+|   2015|            59|
+|   2016|            60|
+|   2017|            59|
+|   2018|            60|
+|   2019|            60|
+|2020/21|            60|
+|   2021|            60|
+|   2022|            74|
+|   2023|            74|
+|   2024|            71|
++-------+--------------+
+
+
+🏆 1b. Wins by Each Team Per Season
++-------+--------------------+----+
+| season|              winner|wins|
++-------+--------------------+----+
+|2007/08|    Rajasthan Royals|  13|
+|2007/08|     Kings XI Punjab|  10|
+|2007/08| Chennai Super Kings|   9|
+|2007/08|    Delhi Daredevils|   7|
+|2007/08|      Mumbai Indians|   7|
+|2007/08|Kolkata Knight Ri...|   6|
+|2007/08|Royal Challengers...|   4|
+|2007/08|     Deccan Chargers|   2|
+|   2009|    Delhi Daredevils|  10|
+|   2009|     Deccan Chargers|   9|
+|   2009|Royal Challengers...|   9|
+|   2009| Chennai Super Kings|   8|
+|   2009|     Kings XI Punjab|   7|
+|   2009|    Rajasthan Royals|   6|
+|   2009|      Mumbai Indians|   5|
+|   2009|Kolkata Knight Ri...|   3|
+|2009/10|      Mumbai Indians|  11|
+|2009/10| Chennai Super Kings|   9|
+|2009/10|     Deccan Chargers|   8|
+|2009/10|Royal Challengers...|   8|
++-------+--------------------+----+
+only showing top 20 rows
+
+🧠 1c. Toss Decision Effectiveness
++-------------+-------------+---------------+--------------+
+|toss_decision|total_matches|wins_after_toss|win_percentage|
++-------------+-------------+---------------+--------------+
+|        field|          704|            377|         53.55|
+|          bat|          391|            177|         45.27|
++-------------+-------------+---------------+--------------+
+
+
+📈 3a. Total Matches Played and Won by Each Team
++---------------------------+--------------+-----------+--------------+
+|team                       |matches_played|matches_won|win_percentage|
++---------------------------+--------------+-----------+--------------+
+|Rising Pune Supergiant     |16            |10         |62.5          |
+|Gujarat Titans             |45            |28         |62.22         |
+|Chennai Super Kings        |238           |138        |57.98         |
+|Mumbai Indians             |261           |144        |55.17         |
+|Lucknow Super Giants       |44            |24         |54.55         |
+|Delhi Capitals             |91            |48         |52.75         |
+|Kolkata Knight Riders      |251           |131        |52.19         |
+|Rajasthan Royals           |221           |112        |50.68         |
+|Sunrisers Hyderabad        |182           |88         |48.35         |
+|Royal Challengers Bangalore|240           |116        |48.33         |
+|Royal Challengers Bengaluru|15            |7          |46.67         |
+|Kings XI Punjab            |190           |88         |46.32         |
+|Gujarat Lions              |30            |13         |43.33         |
+|Kochi Tuskers Kerala       |14            |6          |42.86         |
+|Punjab Kings               |56            |24         |42.86         |
+|Delhi Daredevils           |161           |67         |41.61         |
+|Deccan Chargers            |75            |29         |38.67         |
+|Rising Pune Supergiants    |14            |5          |35.71         |
+|Pune Warriors              |46            |12         |26.09         |
++---------------------------+--------------+-----------+--------------+
+
+
+🏅 4a. Top 10 Run Scorers
++--------------+----------+
+|batter        |total_runs|
++--------------+----------+
+|V Kohli       |8014      |
+|S Dhawan      |6769      |
+|RG Sharma     |6630      |
+|DA Warner     |6567      |
+|SK Raina      |5536      |
+|MS Dhoni      |5243      |
+|AB de Villiers|5181      |
+|CH Gayle      |4997      |
+|RV Uthappa    |4954      |
+|KD Karthik    |4843      |
++--------------+----------+
+
+
+⚡ 4b. Batter Strike Rates (Min 200 Balls Faced)
++--------------+-----+----+-----------+
+|batter        |balls|runs|strike_rate|
++--------------+-----+----+-----------+
+|PD Salt       |385  |653 |169.61     |
+|T Stubbs      |239  |405 |169.46     |
+|TM Head       |458  |772 |168.56     |
+|AD Russell    |1515 |2488|164.22     |
+|H Klaasen     |613  |993 |161.99     |
+|TH David      |417  |659 |158.03     |
+|SP Narine     |984  |1534|155.89     |
+|Shashank Singh|272  |423 |155.51     |
+|N Pooran      |1143 |1769|154.77     |
+|LS Livingstone|609  |939 |154.19     |
++--------------+-----+----+-----------+
+only showing top 10 rows
+
+🎯 4c. Top Wicket Takers (Excluding Run Outs)
++----------+-------+
+|bowler    |wickets|
++----------+-------+
+|YS Chahal |205    |
+|PP Chawla |192    |
+|DJ Bravo  |183    |
+|B Kumar   |181    |
+|R Ashwin  |180    |
+|SP Narine |180    |
+|A Mishra  |174    |
+|SL Malinga|170    |
+|JJ Bumrah |168    |
+|RA Jadeja |160    |
++----------+-------+
+only showing top 10 rows
+
+📌 5a. Best Venues for Batting First (Win % when batting first)
++------------------------------------------------------------------+----+-----+-----------------+
+|venue                                                             |wins|total|bat_first_win_pct|
++------------------------------------------------------------------+----+-----+-----------------+
+|Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam|2   |2    |100.0            |
+|Maharashtra Cricket Association Stadium, Pune                     |10  |13   |76.92            |
+|Himachal Pradesh Cricket Association Stadium, Dharamsala          |3   |4    |75.0             |
+|Vidarbha Cricket Association Stadium, Jamtha                      |2   |3    |66.67            |
+|Barsapara Cricket Stadium, Guwahati                               |2   |3    |66.67            |
+|Buffalo Park                                                      |2   |3    |66.67            |
+|MA Chidambaram Stadium, Chepauk                                   |30  |48   |62.5             |
+|Subrata Roy Sahara Stadium                                        |10  |16   |62.5             |
+|Nehru Stadium                                                     |3   |5    |60.0             |
+|Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh  |3   |5    |60.0             |
++------------------------------------------------------------------+----+-----+-----------------+
+only showing top 10 rows
+
+📊 5b. Season-wise Chasing vs Batting First Wins
++-------+--------------+------------+
+| season|bat_first_wins|chasing_wins|
++-------+--------------+------------+
+|2007/08|            24|          34|
+|   2009|            27|          29|
+|2009/10|            31|          28|
+|   2011|            33|          39|
+|   2012|            34|          40|
+|   2013|            37|          37|
+|   2014|            22|          37|
+|   2015|            32|          24|
+|   2016|            21|          39|
+|   2017|            26|          32|
+|   2018|            28|          32|
+|   2019|            22|          35|
+|2020/21|            27|          29|
+|   2021|            22|          37|
+|   2022|            37|          37|
+|   2023|            40|          33|
+|   2024|            35|          36|
++-------+--------------+------------+
+
+
+🧾 6a. Extra Runs Conceded by Each Team (Bowling Team)
++---------------------------+------------+
+|bowling_team               |total_extras|
++---------------------------+------------+
+|Mumbai Indians             |2295        |
+|Royal Challengers Bangalore|2040        |
+|Kolkata Knight Riders      |1957        |
+|Rajasthan Royals           |1917        |
+|Chennai Super Kings        |1842        |
+|Kings XI Punjab            |1571        |
+|Delhi Daredevils           |1268        |
+|Sunrisers Hyderabad        |1254        |
+|Delhi Capitals             |725         |
+|Deccan Chargers            |659         |
+|Punjab Kings               |480         |
+|Lucknow Super Giants       |386         |
+|Pune Warriors              |335         |
+|Gujarat Titans             |295         |
+|Gujarat Lions              |188         |
+|Royal Challengers Bengaluru|151         |
+|Rising Pune Supergiant     |111         |
+|Kochi Tuskers Kerala       |110         |
+|Rising Pune Supergiants    |108         |
++---------------------------+------------+
+
+
+📉 6b. Economy Rate of Bowlers (Min 300 Balls Bowled)
++----------------+-----+----+------------+
+|bowler          |balls|runs|economy_rate|
++----------------+-----+----+------------+
+|A Kumble        |970  |1089|6.74        |
+|GD McGrath      |325  |366 |6.76        |
+|J Yadav         |392  |447 |6.84        |
+|SP Narine       |4085 |4672|6.86        |
+|DL Vettori      |777  |894 |6.9         |
+|M Muralitharan  |1530 |1765|6.92        |
+|RE van der Merwe|443  |515 |6.98        |
+|Rashid Khan     |2872 |3340|6.98        |
+|MJ Santner      |367  |428 |7.0         |
+|J Botha         |694  |818 |7.07        |
++----------------+-----+----+------------+
+only showing top 10 rows.
